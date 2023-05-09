@@ -12,27 +12,21 @@ How to use:
 ----------
 1) Place your EXE file in the same directory as the "auto_diff.sh.x".
 2) Make Sure that in the same directory you have the folders (if not create them):
+
 		"in" -put your input files here.
 		"cout"- put your expected output files here. 
 		"out" - The output files of you program will go here
 		"log" - The diff/valgrind log will go there
+
 3) instal or make sure you have this tools (you can copy paste the command):
 
-gcc (probably already have):
-sudo apt-get install build-essential
+		gcc (probably already have):	sudo apt-get install build-essential
 
+		diff (probably already have):	sudo apt-get install diffutils
 
-diff (probably already have):
+		valgrind:			sudo apt-get install valgrind
 
-
-sudo apt-get install diffutils
-
-
-valgrind:
-
-
-sudo apt-get install valgrind
- 
+    
 
 How to run:
 ----------
