@@ -19,8 +19,6 @@ How to use:
 3) instal or make sure you have this tools (you can copy paste the command):
 
 gcc (probably already have):	
-
-
 sudo apt-get install build-essential
 
 
