@@ -4,6 +4,9 @@ Automated Testing Script
 the Script automates the testing by running the exe with each input file, 
 comparing the program's output with the expected output.
 
+Run the command:
+	./auto_diff.sh.x -dvl <program_name>.exe <input_test_name> <expected_output_name>
+
 How to use:
 ----------
 1) Place your EXE file in the same directory as the "auto_diff.sh.x".
