@@ -36,7 +36,9 @@ You can run several tests by passing multiple input and output in a chained sequ
 NOTE3: 
 	test file (input&output) have sto start with "test" 
 	(like "test1.in" "test_044101_out.txt")!!!!
-
+NOTE4:
+	the script should work on v-box: mamat_vm-1.16-linux
+	
 EXAMPLE:
 --------
 root@Sagi $ ./auto_diff.sh.x -dvl prog.exe test-2.txt test-2.out test-1.in test-1.out
