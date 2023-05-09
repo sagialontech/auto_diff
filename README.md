@@ -6,7 +6,9 @@ comparing the program's output with the expected output.
 
 Run the command:
 
+
 ./auto_diff.sh.x -dvl <program_name>.exe <input_test_name> <expected_output_name>
+
 
 How to use:
 ----------
