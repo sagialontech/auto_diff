@@ -53,6 +53,7 @@ NOTE2: You can run several tests by passing multiple input and output in a chain
 
 NOTE3: 
 	test file (input&output) have to start with "test" 
+
 	(like "test1.in" "test_044101_out.txt")!!!!
 
 NOTE4:
