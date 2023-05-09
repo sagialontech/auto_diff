@@ -17,6 +17,7 @@ How to use:
 		"out" - The output files of you program will go here
 		"log" - The diff/valgrind log will go there
 3) instal or make sure you have this tools (you can copy paste the command):
+
 gcc (probably already have):	
 
 sudo apt-get install build-essential
