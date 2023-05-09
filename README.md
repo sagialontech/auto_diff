@@ -6,7 +6,7 @@ comparing the program's output with the expected output.
 
 Run the command:
 
-	./auto_diff.sh.x -dvl <program_name>.exe <input_test_name> <expected_output_name>
+./auto_diff.sh.x -dvl <program_name>.exe <input_test_name> <expected_output_name>
 
 How to use:
 ----------
@@ -17,15 +17,19 @@ How to use:
 		"out" - The output files of you program will go here
 		"log" - The diff/valgrind log will go there
 3) instal or make sure you have this tools (you can copy paste the command):
-		gcc (probably already have):	sudo apt-get install build-essential
-		diff (probably already have):	sudo apt-get install diffutils
-		valgrind:			sudo apt-get install valgrind
+gcc (probably already have):	
+
+sudo apt-get install build-essential
+diff (probably already have):	
+sudo apt-get install diffutils
+valgrind:			
+sudo apt-get install valgrind
     
 How to run:
 ----------
 Run the command:
 
-		./auto_diff.sh.x -dvl <program_name>.exe <input_test_name> <expected_output_name>
+./auto_diff.sh.x -dvl <program_name>.exe <input_test_name> <expected_output_name>
 
 
 FLAGS:
@@ -36,13 +40,12 @@ FLAGS:
 NOTE1: 
 don't forget to do:
 
-		 chmod +x auto_diff.sh.x
+chmod +x auto_diff.sh.x
 
 NOTE2: 
 You can run several tests by passing multiple input and output in a chained sequence:
 
-		./auto_diff.sh.x -dvl <program_name>.exe <input1> <exout1> <input2> <exout2> <input3> <exout3> ...
-
+./auto_diff.sh.x -dvl <program_name>.exe <input1> <exout1> <input2> <exout2> <input3> <exout3> ...
 
 NOTE3: 
 	test file (input&output) have sto start with "test" 
