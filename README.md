@@ -26,6 +26,8 @@ How to run:
 Run the command:
 
 		./auto_diff.sh.x -dvl <program_name>.exe <input_test_name> <expected_output_name>
+
+
 FLAGS:
 	-d : diff falg
 	-v : valgrind flag
@@ -35,10 +37,12 @@ NOTE1:
 don't forget to do:
 
 		 chmod +x auto_diff.sh.x
+
 NOTE2: 
 You can run several tests by passing multiple input and output in a chained sequence:
 
 		./auto_diff.sh.x -dvl <program_name>.exe <input1> <exout1> <input2> <exout2> <input3> <exout3> ...
+
 
 NOTE3: 
 	test file (input&output) have sto start with "test" 
