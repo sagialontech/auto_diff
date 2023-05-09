@@ -20,9 +20,13 @@ How to use:
 gcc (probably already have):	
 
 sudo apt-get install build-essential
-diff (probably already have):	
+
+diff (probably already have):
+
 sudo apt-get install diffutils
-valgrind:			
+
+valgrind:
+
 sudo apt-get install valgrind
     
 How to run:
